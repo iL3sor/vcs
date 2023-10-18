@@ -1,0 +1,18 @@
+version: '3.8'
+services:
+  project-webapp:
+    build: ./src
+    restart: unless-stopped
+    depends_on:
+      - project-db
+    ports:
+      - 8890:80
+  project-db:
+    container_name: project-db
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: dvwa
+      MYSQL_USER: dvwa
+      MYSQL_PASSWORD: p@ssw0rd
